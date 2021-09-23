@@ -1,7 +1,6 @@
 package com.example.motivation.infra
 
 import android.content.Context
-import android.content.SharedPreferences
 
 class SecuriryPreferences(val context: Context) {
 
@@ -11,7 +10,8 @@ class SecuriryPreferences(val context: Context) {
         mSharedPreferences.edit().putString(key, value).apply()
     }
 
-    fun getString(key: String) {
+    fun getString(key: String): String {
+        return mSharedPreferences.getString(key, "")  ?: ""
 
     }
 }
