@@ -52,17 +52,18 @@
         android:layout_below="@+id/linearMenu"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="Helo mane"
+        android:text="Olá mané"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/textPhrase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
         android:layout_marginTop="32dp"
-        android:text="frase"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:text="Frase"
         android:textSize="22sp" />
 
     <View
@@ -80,7 +81,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
-        android:padding="16dp"
+        android:background="@drawable/ripple_button"
+        android:padding="8dp"
         android:text="@string/nova_frase_button" />
 
 

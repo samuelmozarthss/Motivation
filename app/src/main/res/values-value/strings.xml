@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Motivation</string>
+    <string name="all">All</string>
+    <string name="happy">Happy</string>
+    <string name="morning">Morning</string>
+    <string name="nova_frase_button">New phrase</string>
+    <string name="start">et\'s get started?</string>
+    <string name="your_name">What\'s your name?</string>
+    <string name="salvar">Save</string>
+</resources>

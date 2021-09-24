@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Motivation</string>
-    <string name="all">All</string>
-    <string name="happy">Happy</string>
-    <string name="morning">Morning</string>
+    <string name="all">Todos</string>
+    <string name="happy">Feliz</string>
+    <string name="morning">Manhã</string>
     <string name="nova_frase_button">Nova frase</string>
+    <string name="start">Vamos começar?</string>
+    <string name="your_name">Qual o seu nome?</string>
+    <string name="salvar">Salvar</string>
 </resources>
